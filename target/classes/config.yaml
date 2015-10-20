@@ -1,0 +1,45 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 8100
+  adminConnectors:
+    - type: http
+      port: 8101
+  requestLog:
+    timeZone: IST
+    appenders:
+      - type: file
+        currentLogFilename: /Users/santhosh.b/plivo/requests.log
+        archive: true
+        archivedLogFilenamePattern: /Users/santhosh.b/plivo/requests-%d{yyyy-MM-dd}.log.gz
+        archivedFileCount: 50
+
+
+logging:
+  loggers:
+    org.glassfish.jersey.filter.LoggingFilter: DEBUG
+    level: DEBUG
+    org.hibernate.SQL: ALL
+  appenders:
+    - type: console
+      threshold: INFO
+      timeZone: IST
+      logFormat: "[%date] [%-5level] [%thread] [%X{id}] [%logger{10}] [%msg]%n"
+    - type: file
+      threshold: INFO
+      timeZone: IST
+      logFormat: "[%date] [%-5level] [%thread] [%X{id}] [%logger{10}] [%msg]%n"
+      currentLogFilename: /Users/santhosh.b/plivo/temp.log
+      archive: true
+      archivedLogFilenamePattern: /Users/santhosh.b/plivo/test-info-%d{yyyy-MM-dd}.log.gz
+      archivedFileCount: 50
+    - type: file
+      threshold: ERROR
+      timeZone: IST
+      logFormat: "[%date] [%-5level] [%thread] [%X{id}] [%logger{10}] [%msg]%n"
+      currentLogFilename: /Users/santhosh.b/flipkart/temp-error.log
+      archive: true
+      archivedLogFilenamePattern: /Users/santhosh.b/plivo/test-error-%d{yyyy-MM-dd}.log.gz
+      archivedFileCount: 50
+
+URL: http://www.aol.com/

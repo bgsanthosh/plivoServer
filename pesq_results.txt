@@ -1,0 +1,13 @@
+REFERENCE	 DEGRADED	 PESQMOS	 MOSLQO	 SAMPLE_FREQ	 MODE
+/Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/test.mp3	 /Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/actual.mp3	 4.500	 4.549	 16000	nb
+/Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/test.mp3	 /Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/actual.mp3	 4.500	 4.549	 16000	nb
+/Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/test.mp3	 /Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/actual.mp3	 4.500	 4.549	 16000	nb
+/Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/test.mp3	 /Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/actual.mp3	 4.500	 4.549	 16000	nb
+/Users/santhosh.b/recorded.mp3	 /Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/expected.mp3	 1.870	 1.535	 16000	nb
+/Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/expected.mp3	 /Users/santhosh.b/recorded.mp3	 0.113	 1.043	 16000	nb
+/Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/expected.wav	 /Users/santhosh.b/recorded.wav	 -0.065	 1.033	 16000	nb
+/Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/expected.wav	 /Users/santhosh.b/recorded.wav	 -0.101	 1.031	 16000	nb
+/Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/expected.wav	 /Users/santhosh.b/recorded.wav	 -0.022	 1.035	 16000	nb
+/Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/expected.wav	 /Users/santhosh.b/recorded.wav	 -0.022	 1.035	 16000	nb
+/Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/expected.wav	 /Users/santhosh.b/recorded.wav	 -0.022	 1.035	 16000	nb
+/Users/santhosh.b/plivo/Software/P862_annex_A_2005_CD/source/expected.wav	 /Users/santhosh.b/recorded.wav	 -0.022	 1.035	 16000	nb
